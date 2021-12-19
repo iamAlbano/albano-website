@@ -19,8 +19,11 @@ return [
     'skills' => 'Habilidades',
     'portfolio' => 'Portfólio',
     'contact' => 'Contato',
-    'meet me' => 'Conheça-me',
+    'meet me' => 'Quem sou eu',
     'social media' => 'Redes sociais',
-    'info' => 'Olá! Meu chamo Guilherme Lage Albano e sou estudante de Sistemas de Informação na Universidade Federal de Ouro Preto'
+    'info' => 'Olá! Me chamo Guilherme Lage Albano e sou estudante de Sistemas de Informação na Universidade Federal de Ouro Preto. 
+    Estudo sobre ciência da computação desde que era criançae agora estou trabalhando com Engenharia de Software, e é nesta carreira
+    que quero aprimorar minhas habilidades.',
+    'skills' => 'Conhecimentos',
 
 ];

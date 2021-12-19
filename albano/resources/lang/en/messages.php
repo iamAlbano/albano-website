@@ -19,9 +19,11 @@ return [
     'skills' => 'Skills',
     'portfolio' => 'Portfolio',
     'contact' => 'Contact',
-    'meet me' => 'Meet me',
+    'meet me' => 'Who am I',
     'social media' => 'Social media',
     'info' => 'Hi there! My name is Guilherme Lage Albano and I\'m 22 years old and I\'m currently
-     studying Systems Informations at Universidade Federal de Ouro Preto in Brazil. ',
+     studying Systems Informations at Universidade Federal de Ouro Preto in Brazil. I love studying computer science since I was a kid
+      and now I am working with Software Engineering and that\'s the career I want to keep improving my skills.',
+    'skills' => 'Skills',
 
 ];
