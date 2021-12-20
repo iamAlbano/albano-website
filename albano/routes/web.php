@@ -1,10 +1,9 @@
 <?php
+
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 
 
-Route::get('/{lang?}', function ($lang = 'en') {
-    App::setLocale($lang);
-    return view('welcome');
-});
+Route::resource('/{lang?}', ContactController::class);

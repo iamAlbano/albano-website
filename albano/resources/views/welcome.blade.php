@@ -321,7 +321,9 @@
 
             </div>
 
-            <form action="" method="post">
+            <form action="{{ url('/')}}" method="post">
+                @csrf
+
                 <div class="row g-2">
                     <div class="col">
                         <label for="basic-url" class="form-label">{{ __('messages.name')}}</label>
@@ -351,14 +353,14 @@
                     <div class="col">
                         <label for="basic-url" class="form-label">{{ __('messages.message')}}</label>
                         <div class="input-group">
-                            <textarea class="input form-control" aria-label="With textarea"></textarea>
+                            <textarea class="input form-control" name="message" id="message" aria-label="With textarea"></textarea>
                         </div>
                     </div>         
                 </div>  
                 <hr>
                 <div class="row">
                     <div class="text-center">
-                        <button class="btn btn-lg btn-send">Enviar</button>
+                        <button class="btn btn-lg btn-send">{{__('messages.submit')}}</button>
                     </div>         
                 </div> 
             </form>                

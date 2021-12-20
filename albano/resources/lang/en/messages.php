@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => '<Albano/>',
+  
     'home' => 'Home',
     'about me' => 'About me',
     'skills' => 'Skills',
@@ -38,5 +38,6 @@ return [
     'email' => 'Your email',
     'subject' => 'Subject',
     'message' => 'Message',
+    'submit' => 'Send',
 
 ];

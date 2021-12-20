@@ -16,12 +16,19 @@
     <link href="{{ URL::asset('flickity/flickity.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('flickity/css/flickity.min.css') }}" rel="stylesheet">
 
-    <title>{{__('messages.title')}}</title>
+    <title>Albano</title>
+    <link rel="icon" href="{{URL::asset('img/favicon2.ico')}}">
     
   </head>
   <body>
 
     @yield('content')
+
+    @if(Session::has('success'))
+      @include('success')
+    @elseif(Session::has('error'))
+      @include('error')
+    @endif
 
 
    

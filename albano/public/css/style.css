@@ -199,6 +199,18 @@ body {
     color: #fafafa;
 }
 
+.progress{
+    position: relative;
+}
+
+.progress .progress-bar{
+    margin: auto;
+    position: absolute;
+    height: 20px;
+    animation: progress-animation 6s infinite;
+ }
+ 
+
 
 
 
