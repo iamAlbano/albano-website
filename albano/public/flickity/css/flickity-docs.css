@@ -1645,7 +1645,7 @@ code .flickity { text-decoration: underline; }
 ------------------------- */
 
 .carousel {
-  background: rgba(20, 21, 22, .1);
+  background: rgba(0, 0, 0, 0);
   margin-bottom: 30px;
   counter-reset: carousel-cell;
 }
@@ -1655,7 +1655,7 @@ code .flickity { text-decoration: underline; }
   height: 160px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background: rgba(20, 21, 22, .1);
+  background: rgba(0, 0, 0, 0);
   border-radius: 5px;
   counter-increment: carousel-cell;
 }

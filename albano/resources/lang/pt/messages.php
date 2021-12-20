@@ -25,5 +25,14 @@ return [
     Estudo sobre ciência da computação desde que era criançae agora estou trabalhando com Engenharia de Software, e é nesta carreira
     que quero aprimorar minhas habilidades.',
     'skills' => 'Conhecimentos',
+    'portfolio 1' => 'Estrutura de dados em C',
+    'portfolio 2' => 'Busca binária em C',
+    'portfolio 3' => 'Gestor acadêmico em Java',
+    'portfolio 4' => 'Banco de dados com PHP',
+    'portfolio 5' => 'Desenvolvimento Web I',
+    'portfolio 6' => 'Caminho mínimo em Python',
+    'portfolio 7' => 'Este website',
+    'portfolio 8' => 'Pizzaria online',
+    'portfolio 9' => 'Busca binária em Assembly',
 
 ];

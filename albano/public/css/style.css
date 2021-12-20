@@ -106,7 +106,7 @@ body {
     z-index: 1;
     color: #8257e5;
     background-image: 
-    linear-gradient(rgba(14, 14, 16, 0.097), rgba(28, 26, 31, 0.186)),
+    linear-gradient(rgba(14, 14, 16, 0.775), rgba(28, 26, 31, 0.775)),
     url('https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     background-size: cover;
     background-blend-mode: saturation;
