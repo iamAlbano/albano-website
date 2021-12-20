@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use Mail;
+use App\Mail\SendMail;
 use Illuminate\Support\Facades\App;
 use Illuminate\Http\Request;
 
@@ -41,6 +44,16 @@ class ContactController extends Controller
             'subject' => 'required',
             'message' => 'required',
         ]));
+
+        $data = array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message
+        );
+
+        Mail::to( config('mail.from.address') )
+                  ->send( new SendMail ($data) );
 
 
     }
