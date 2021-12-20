@@ -80,7 +80,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
     background-image: linear-gradient(
-        269.94deg,#ffc107 -7.44%,#e67b09 99.94%);
+        269.94deg,#ffc107 1.44%,#e67b09 9.94%);
 }
 
 .title {
@@ -92,17 +92,80 @@ body {
     -webkit-text-fill-color: transparent;  
     background-image: linear-gradient(
         269.94deg,#ff008e -7.44%,#8257e5 99.94%);
+    
 }
 
 .text {
     color: white;
+    
 }
+
+.card {
+    
+    background-color: #09070ee3 !important;
+    z-index: 1;
+    color: #8257e5;
+    background-image: 
+    linear-gradient(rgba(14, 14, 16, 0.097), rgba(28, 26, 31, 0.186)),
+    url('https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-blend-mode: saturation;
+    
+}
+
+
+
+.card p {
+    
+    color: #8257e5;
+    font-weight: 1000;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-image: linear-gradient(
+        269.94deg,#aa57e5 -7.44%,#8257e5 99.94%); 
+    
+}
+
+.card:hover svg {
+    color:  #aa57e5;
+    transition: 0.5s;
+   
+}
+
+.card:hover {
+    opacity: .5;
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+    background-color: #060211fa !important;
+    transition: 1s;
+    border: 1px solid #8257e5;
+}
+
+.card:hover p {
+    position: relative;
+    color: #8257e5;
+    background-image: linear-gradient(
+        269.94deg,#ff008e -7.44%,#8257e5 99.94%);
+}
+
+.card-blur {
+    background-image: linear-gradient(
+        269.94deg,#ff008e -7.44%,#8257e5 99.94%);;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    
+  
+}
+
 
 
 .footer {
     margin-top: 10em;
 }
-
 
 
 
