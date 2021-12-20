@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Mail;
+use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
 use Illuminate\Support\Facades\App;
 use Illuminate\Http\Request;
+
 
 class ContactController extends Controller
 {
@@ -54,6 +54,8 @@ class ContactController extends Controller
 
         Mail::to( config('mail.from.address') )
                   ->send( new SendMail ($data) );
+        
+        return back()->with('success', 'Thanks for contacting me!');
 
 
     }

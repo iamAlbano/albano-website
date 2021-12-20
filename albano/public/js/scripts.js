@@ -22,3 +22,8 @@ function contact(){
     var element = document.querySelector(".contact");
     element.scrollIntoView();
 }
+
+
+setTimeout(function() {
+    $('.alert').fadeOut('slow');
+ }, 5000);

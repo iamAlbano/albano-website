@@ -199,6 +199,11 @@ body {
     color: #fafafa;
 }
 
+.alert {
+    width: 90vh;
+    margin: auto;
+}
+
 .progress{
     position: relative;
 }
