@@ -5,26 +5,12 @@
 @include('navbar')
 
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
+    <div class="parallax"></div>
+        
+         
 
-            <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" 
-                class="carousel-img d-block w-100" alt="...">
-            </div>
+            
 
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1558895101-0b9cc10348f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1194&q=80" 
-                class="carousel-img d-block w-100" alt="...">
-            </div>
-
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=920&q=80" 
-                class="carousel-img d-block w-100" alt="...">
-            </div>
-
-        </div>
-    </div>
 
 
     <div class="position-relative">
@@ -43,11 +29,11 @@
             <div class="row g-2">
 
                 <div class="col-6">
-                    <div class="p-3  title"><h1>{{ __('messages.meet me')}}</h1></div>
+                    <div class="p-3  title"><h1 class="h1">{{ __('messages.meet me')}}</h1></div>
                 </div>
 
                 <div class="col-6">
-                    <div class="p-3 title text-end"><h1>{{ __('messages.social media')}}</h1></div>
+                    <div class="p-3 title text-end"><h1 class="h1">{{ __('messages.social media')}}</h1></div>
                 </div>
 
                 <div class="col-6">
@@ -93,49 +79,121 @@
     </div> 
 
 
-    <div >
+    <div id="inverse-gradient">
 
         <hr id="divider">
 
-        <div class="container shadow-lg p-3 mb-5 rounded second ">
+        <div class="container shadow-lg p-3 rounded second ">
             <div class="row g-2">
 
                 <div class="col-6">
-                    <div class="p-3  title"><h1>{{ __('messages.skills')}}</h1></div>
+                    <div class="p-3  title"><h1 class="h1">{{ __('messages.skills')}}</h1></div>
                 </div>
 
             </div>
             
-                <div class="carousel carousel-main" data-flickity>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
+                
+                <div class="carousel rounded" data-flickity='{ "contain": true }'>
+
+                    <div class="carousel-cell">
+                        <img src="{{ URL::asset('img/laravel.png') }}" width="40%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="laravel">
                     </div>
 
-                <div class="carousel carousel-nav"
-                    data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                    <div class="carousel-cell"></div>
-                </div>
+                    <div class="carousel-cell">
+                        <img src="{{ URL::asset('img/php.png') }}" width="40%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="php">
+                    </div>
 
-            
+                    <div class="carousel-cell">
+                        <img src="{{ URL::asset('img/sql.png') }}" width="40%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="sql">
+                    </div>   
+                    
+                    <div class="carousel-cell"><
+                        <img src="{{ URL::asset('img/js.png') }}" width="40%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="js">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="{{ URL::asset('img/bootstrap.png') }}" width="80%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="bootstrap">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="{{ URL::asset('img/ps.png') }}" width="70%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="photoshop">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="{{ URL::asset('img/html5.png') }}" width="45%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="html5">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="{{ URL::asset('img/css.png') }}" width="45%" 
+                        class="position-absolute top-50 start-50 translate-middle " alt="css">
+                    </div> 
+                
+                </div>                  
         </div> 
     </div> 
+
+    
+
+    <div id="gradient">
+        <div class="container shadow-lg p-3 mb-5 rounded second ">
+            <div class="row g-2">
+
+                <div class="col-6">
+                    <div class="p-3  title"><h1 class="h1">{{ __('messages.portfolio')}}</h1></div>
+                </div>
+
+            </div>
+            <div class="carousel rounded" data-flickity='{ "contain": true }'>
+
+                <div class="carousel-cell">
+                    <img src="{{ URL::asset('img/laravel.png') }}" width="40%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="laravel">
+                </div>
+
+                <div class="carousel-cell">
+                    <img src="{{ URL::asset('img/php.png') }}" width="40%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="php">
+                </div>
+
+                <div class="carousel-cell">
+                    <img src="{{ URL::asset('img/sql.png') }}" width="40%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="sql">
+                </div>   
+
+                <div class="carousel-cell"><
+                    <img src="{{ URL::asset('img/js.png') }}" width="40%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="js">
+                </div>
+
+                <div class="carousel-cell">
+                    <img src="{{ URL::asset('img/bootstrap.png') }}" width="80%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="bootstrap">
+                </div>
+
+                <div class="carousel-cell">
+                    <img src="{{ URL::asset('img/ps.png') }}" width="70%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="photoshop">
+                </div>
+
+                <div class="carousel-cell">
+                    <img src="{{ URL::asset('img/html5.png') }}" width="45%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="html5">
+                </div>
+
+                <div class="carousel-cell">
+                    <img src="{{ URL::asset('img/css.png') }}" width="45%" 
+                    class="position-absolute top-50 start-50 translate-middle " alt="css">
+                </div> 
+            </div>
+        </div>
+    </div>
     
 
    

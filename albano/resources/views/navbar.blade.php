@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"></nav>
+
 <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark sticky-top">
 
  
@@ -40,11 +40,11 @@
 
       <div class="d-flex">
         <a class="btn" href="/en">
-        <img width="25" height="25" src="https://cdn-icons-png.flaticon.com/512/323/323329.png" alt="United kingdom free icon" title="United kingdom free icon" class="loaded">
+        <img width="25" height="25" src="https://cdn-icons-png.flaticon.com/512/323/323329.png" alt="English" title="United kingdom free icon" class="loaded">
         </a>
       
         <a class="btn" href="pt">
-          <img class="me-5" width="25" height="25" src="https://cdn-icons-png.flaticon.com/512/197/197386.png" alt="Brazil free icon" title="Brazil free icon" class="loaded">    
+          <img class="me-5" width="25" height="25" src="https://cdn-icons-png.flaticon.com/512/197/197386.png" alt="Português" title="Brazil free icon" class="loaded">    
         </a>
     </div>
 
