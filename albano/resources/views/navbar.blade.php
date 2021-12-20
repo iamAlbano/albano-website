@@ -15,23 +15,23 @@
         <ul class="navbar-nav me-auto mb-lg-0r">
 
           <li class="nav-item ">
-            <a class="nav-link active"  href="#">{{ __('messages.home') }}</a>
+            <a class="nav-link"  onclick="home()">{{ __('messages.home') }}</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link"  href="#">{{ __('messages.about me') }}</a>
+            <a class="nav-link"  onclick="about()">{{ __('messages.about me') }}</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link"  href="#">{{ __('messages.skills') }}</a>
+            <a class="nav-link"  onclick="skill()">{{ __('messages.skills') }}</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link"  href="#">{{ __('messages.portfolio') }}</a>
+            <a class="nav-link"  onclick="portfolio()">{{ __('messages.portfolio') }}</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link"  href="#">{{ __('messages.contact') }}</a>
+            <a class="nav-link"  onclick="contact()">{{ __('messages.contact') }}</a>
           </li>   
           
         </ul>

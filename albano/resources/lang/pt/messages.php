@@ -34,5 +34,9 @@ return [
     'portfolio 7' => 'Este website',
     'portfolio 8' => 'Pizzaria online',
     'portfolio 9' => 'Busca binária em Assembly',
+    'name' => 'Seu name',
+    'email' => 'Seu email',
+    'subject' => 'Assunto',
+    'message' => 'Mensagem',
 
 ];

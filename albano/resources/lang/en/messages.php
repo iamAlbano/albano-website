@@ -34,5 +34,9 @@ return [
     'portfolio 7' => 'This website',
     'portfolio 8' => 'Pizzeria E-commerce',
     'portfolio 9' => 'Search in Assembly',
+    'name' => 'Your name',
+    'email' => 'Your email',
+    'subject' => 'Subject',
+    'message' => 'Message',
 
 ];
