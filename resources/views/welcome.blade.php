@@ -321,63 +321,8 @@
 
 
 
-    <div id="inverse-gradient" class="contact">       
-
-        <div class="container shadow-lg p-3 rounded second ">
-            <div class="row g-2">
-
-                <div class="col-6">
-                    <div class="p-3  title"><h1 class="h1">{{ __('messages.contact')}}</h1></div>
-                </div>              
-
-            </div>
-
-            <form action="{{ url('/')}}" method="post">
-                @csrf
-
-                <div class="row g-2">
-                    <div class="col">
-                        <label for="basic-url" class="form-label">{{ __('messages.name')}}</label>
-                        <div class="input-group mb-3">
-                            <input type="text" class="input form-control" id="name" name="name" aria-describedby="basic-addon3" required>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <label for="basic-url" class="form-label">{{ __('messages.email')}}</label>
-                        <div class="input-group mb-3">
-                            <input type="email" class="input form-control" id="email" name="email" aria-describedby="basic-addon3" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="basic-url" class="form-label">{{ __('messages.subject')}}</label>
-                        <div class="input-group mb-3">
-                            <input type="text" class="input form-control" id="subject" name="subject" aria-describedby="basic-addon3" required>
-                        </div>
-                    </div>         
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label for="basic-url" class="form-label">{{ __('messages.message')}}</label>
-                        <div class="input-group">
-                            <textarea class="input form-control" name="message" id="message" aria-label="With textarea"></textarea>
-                        </div>
-                    </div>         
-                </div>  
-                <hr>
-                <div class="row">
-                    <div class="text-center">
-                        <button class="btn btn-lg btn-send">{{__('messages.submit')}}</button>
-                    </div>         
-                </div> 
-            </form>                
-        </div> 
-    </div> 
-
+    
+    <div id="inverse-gradient"><hr id="divider"></div>
     <div id="gradient"><hr id="divider"></div>
 
    

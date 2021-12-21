@@ -30,9 +30,7 @@
             <a class="nav-link"  onclick="portfolio()">{{ __('messages.portfolio') }}</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link"  onclick="contact()">{{ __('messages.contact') }}</a>
-          </li>   
+             
           
         </ul>
     
