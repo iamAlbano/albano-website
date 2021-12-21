@@ -1671,7 +1671,7 @@ code .flickity { text-decoration: underline; }
   text-align: center;
   line-height: 160px;
   font-size: 80px;
-  color: #141516;
+  color: rgba(0, 0, 0, 0);
 }
 
 .carousel--not-counting .carousel-cell:before { content: none; }
